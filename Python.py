@@ -220,6 +220,7 @@ else:                            #Quand le nombre est celui que le programme a g
     print ('Bravo vous avez trouvé le bon numero ')
 
 '''
+'''
 print ("133")
 from random import *
 nbmystere = randint(1,10)
@@ -244,3 +245,17 @@ def exo12():
 
 
 exo12()
+'''
+
+
+'''
+from func import *
+print (addition(5,10))
+'''
+
+import tkinter as tk
+
+fenetre = tk.Tk()
+label = tk.Label(fenetre, text="Hello World", height=150,width=150)
+label.pack()
+fenetre.mainloop()
